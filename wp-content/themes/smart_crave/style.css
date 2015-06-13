@@ -1,0 +1,220 @@
+/*
+Theme Name: SmartCrave
+Theme URI: http://smartcrave.org
+Author: Antoine Bertin
+Author URI: http://me-myself-and-i.com
+Description: This is my, being humble, awesome theme.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, genius, talented
+*/
+
+body {
+	background: url(images/fruits.png) no-repeat center center fixed;
+ 	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+h1 {
+	font-family: 'Walter Turncoat', cursive;
+}
+
+p {
+	font-family: 'Glegoo', serif;
+	font-weight: 700;
+}
+
+img {
+	margin-top: 2%;
+}
+
+.center {
+	text-align: center;
+
+}
+
+.cat {
+	border-radius: 50%;
+	width: 90px;
+	height: 90px;
+	background-color: transparent;
+	margin-bottom: 15%;
+	margin-left: 15%;
+	border-style: solid;
+	cursor: pointer;
+}
+
+.border {
+	border-style: solid;
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.3);
+	color: #FFF;
+	border-color: #000;
+	border-style: hidden;
+}
+
+article {
+	padding: 5px;
+}
+
+.privacy {
+	color: black;
+}
+
+#pad {
+	padding-bottom: 4%;
+}
+
+.social {
+	padding: 25px;
+}
+
+h4 {
+	text-align: center;
+	margin-top: 30%;
+}
+
+.title {
+	padding-bottom: 15px;
+	padding-top: 10px;
+	font-size: 25px;
+}
+
+.cat:hover {
+	opacity: 0.5;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover, a:focus {
+    color: none;
+    text-decoration: none;
+}
+
+.justify {
+	text-align: justify;
+}
+
+
+.pointer {
+	cursor: pointer;
+}
+
+.modal-dialog {
+    width: 600px;
+    margin: 68px auto;
+}
+
+.modal-sm {
+    width: 400px;
+}
+
+.btc {
+	width: 50%;
+	margin-left: 25%;
+	margin-bottom: 25%;
+}
+
+.archive-img {
+	max-width: 50%;
+}
+
+.table {
+    border-spacing: 0;
+    border-collapse: separate;
+}
+
+.table1 {
+	margin: 5%;
+}
+
+tr {
+	border-style: groove hidden groove hidden;
+}
+
+td {
+	border-style: groove;
+}
+
+.bt {
+	border-top: hidden;
+}
+
+.btl {
+	border-left: hidden;
+}
+
+table {
+	color: black;
+	font-family: 'Glegoo';
+	font-weight: 700;
+}
+
+.stuff {
+	text-align: left;
+    padding-top: 40px;
+    margin-left: -2%;
+}
+
+/* SCROLLING SPEC*/
+html, body {
+	overflow: hidden;
+}
+
+.scroll {
+/*	width: 100px;*/
+    height: 450px;
+    overflow: auto;
+}
+
+/*media querries begin */
+@media (max-width: 800px) {
+	.cat {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	background-color: transparent;
+	border-style: solid;
+	display: inline-block;
+	margin: 3%;
+	}
+
+	h4{
+	text-align: center;
+	margin-top: 15%;
+	font-size: 91%;	
+	}
+	img {
+	margin-top: 4%;
+	}
+	.pad {
+	padding-bottom: 30px;
+	}
+	.privacy {
+	text-align: center;
+	color: white;
+	padding-top: 80px;
+	}
+	html, body {
+		overflow: auto;
+	}
+
+	.scroll {
+		overflow: none;
+		height: auto;
+	}
+
+	}
+
+/* @media (min-width: 321px) and (max-width: 993px) {}
+
